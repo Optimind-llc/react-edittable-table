@@ -1,0 +1,49 @@
+{
+  "name": "react-edittable-table",
+  "version": "0.0.1",
+  "description": "react-edittable-table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib --source-maps"
+  },
+  "keywords": [
+    "react",
+    "styled-components",
+    "immutable",
+    "table"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Optimind-llc/react-edittable-table.git"
+  },
+  "author": "Shiichi Saito <saito.shiichi@optimind.tech> (http://www.optimind.tech/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Optimind-llc/react-edittable-table/issues"
+  },
+  "homepage": "https://github.com/Optimind-llc/react-edittable-table#readme",
+  "peerDependencies": {
+    "react": "^15.x.x || ^16.x.x",
+    "immutable": "^3.8.2",
+    "styled-components": "^2.4.0",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2",
+      "react"
+    ]
+  }
+}
