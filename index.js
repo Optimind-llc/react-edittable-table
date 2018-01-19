@@ -1,3 +1,3 @@
-var myModule = require('./lib/myModule');
+var myModule = require('./lib');
 
 module.exports = myModule;
